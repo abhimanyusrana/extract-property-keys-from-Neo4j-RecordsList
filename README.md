@@ -1,2 +1,5 @@
 # extract-property-keys-from-Neo4j-RecordsList
-extracts all properties from a set of Neo4j RecordsList. Useful, given the lack of things you can do with the RecordsList and Record objects themselves
+
+inspects all records and extracts properties mentioned in them to ensure it
+gets all. Returns a set of property values.
+it takes input in form : 'WHATEVERHAPPENS-IN-THE-QUERY return n, keys(n)'
